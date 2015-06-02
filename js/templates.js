@@ -14,11 +14,9 @@ this["template"]["example"] = Handlebars.template({"1":function(depth0,helpers,p
     + alias3(((helper = (helper = helpers.content || (depth0 != null ? depth0.content : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"content","hash":{},"data":data}) : helper)))
     + "</div>\n  </div>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    var stack1, helper;
+    var stack1;
 
-  return "<h1>\n  "
-    + this.escapeExpression(((helper = (helper = helpers.value || (depth0 != null ? depth0.value : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0,{"name":"value","hash":{},"data":data}) : helper)))
-    + "\n</h1>\n\n\n\n"
+  return "\n\n\n<div class=\"all\">\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.timelines : depth0),{"name":"each","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + "\n\n\n";
+    + "</div>\n\n\n";
 },"useData":true});

@@ -18,6 +18,7 @@ body {
   background-color: white;
   height: 56px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .dateTime {
@@ -25,17 +26,23 @@ body {
 }
 
 .times {
-  color: $lightBlue;
+  color: $darkBlue;
   font-size: 2em;
 }
+
+.times:hover {
+  color: $lightBlue;
+}
+
 
 .date {
   color: $gray;
 }
 
-i {
-  font-size: 30px;
-
+.fa {
+  font-size: 25px;
+  margin-top: 6px;
+  margin-left: 9px;
 }
 
 .icon {
@@ -44,6 +51,8 @@ i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 7px;
 
 
 }
@@ -54,6 +63,7 @@ i {
   height: 56px;
   border-radius: 50%;
   float: right;
+
 
 
 }
@@ -94,5 +104,8 @@ i {
 
 }
 
+
+@import "large";
+@import "max";
 
 
