@@ -1,3 +1,29 @@
 <h1>
   {{value}}
 </h1>
+
+
+
+{{#each timelines}}
+  <div class="aboveContent">
+
+  <div class="dateTime">
+  <div class="date">{{date}}</div>
+  <div class="times"> {{times}}</div>
+  </div><!--end of dateTime div-->
+
+  <div class="behindIcon">
+  <div class="icon"><i class="fa {{icon}}"></i></div>
+  </div><!--end of behindIcon div-->
+  </div><!--end of aboveContent div-->
+
+
+  <div class="titleContent">
+  <div class="timeCone"></div>
+  <div class="title">{{title}}</div>
+  <div class="content">{{content}}</div>
+  </div>
+ {{/each}}
+
+
+

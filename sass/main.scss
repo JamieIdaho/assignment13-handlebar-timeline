@@ -1,0 +1,98 @@
+$darkBlue: #3A95C9;
+$lightBlue: #6FC0EC;
+$gray: #BBCED9;
+$white: #FFFFFF;
+$font: arial, 'sans-serif';
+
+body {
+  width: 360px;
+  font-family: $font;
+}
+
+.container {
+  width: 305px;
+  margin:0 auto;
+}
+
+.aboveContent {
+  background-color: white;
+  height: 56px;
+  margin-bottom: 20px;
+}
+
+.dateTime {
+  float: left;
+}
+
+.times {
+  color: $lightBlue;
+  font-size: 2em;
+}
+
+.date {
+  color: $gray;
+}
+
+i {
+  font-size: 30px;
+
+}
+
+.icon {
+  color: $white;
+  background-color: $darkBlue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+
+}
+
+.behindIcon {
+  background-color: $lightBlue;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  float: right;
+
+
+}
+
+.timeCone {
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 0 10px 10px 10px;
+   border-color: transparent transparent $darkBlue transparent;
+   position: absolute;
+   left: 35px;
+   top: -10px;
+ }
+
+.titleContent {
+  position: relative;
+  color: $white;
+  background-color: $darkBlue;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.titleContent:hover {
+  background-color: $lightBlue;
+}
+
+.title {
+  height: 58px;
+  border-bottom: 1px solid $white;
+  font-size: 1.7em;
+}
+
+.content {
+  margin-top: 24px;
+  line-height: 1.7em;
+
+}
+
+
+
