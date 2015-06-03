@@ -11,20 +11,55 @@
   .container {
     width: 925px;
     margin: 0 auto;
+    margin-top: 30px;
   }
 
- //  .all {
- // position: relative;
- //  }
+  .titleContent {
+    width: 600px;
+    float: right;
+  }
 
- //  .all::before {
- //  content: '';
- //  position: absolute;
- //  top: 0;
- //  left: 133px;
- //  height: 100%;
- //  width: 9px;
- //  background: $lightBlue;
- //  }
+  .box {
+
+  }
+
+  .aboveContent {
+    width: 295px;
+    float: left;
+    margin-top: 0;
+  }
+
+  .behindIcon {
+    margin-right: 40px;
+  }
+
+  .dateTime {
+    margin-left: 80px;
+  }
+
+  .timeCone {
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 10px 10px 10px 10px;
+   border-color: transparent $darkBlue transparent transparent;
+   position: absolute;
+   left: -19px;
+   top: 35px;
+ }
+
+  // .all {
+  //   position: relative;
+  // }
+
+  // .all::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 133px;
+  //   height: 100%;
+  //   width: 9px;
+  //   background: $lightBlue;
+  // }
 
 }
