@@ -22,6 +22,7 @@
   .titleContent {
     width: 600px;
     float: right;
+    position: relative;
   }
 
 
@@ -50,6 +51,14 @@
    top: 13px;
  }
 
+ .titleContent:hover {
+  background-color: $lightBlue;
+
+    .timeCone {
+        border-color: transparent $lightBlue transparent transparent;}
+      }
+
+
   #all {
     position: relative;
     height: 1380px;
@@ -73,4 +82,4 @@
     position: absolute;
   }
 
-};
+}

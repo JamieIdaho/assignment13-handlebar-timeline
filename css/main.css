@@ -58,9 +58,6 @@ body {
   left: 35px;
   top: -10px; }
 
-.timeCone:hover {
-  border-color: transparent transparent #6FC0EC transparent; }
-
 .titleContent {
   position: relative;
   color: #FFFFFF;
@@ -71,6 +68,8 @@ body {
 
 .titleContent:hover {
   background-color: #6FC0EC; }
+  .titleContent:hover .timeCone {
+    border-color: transparent transparent #6FC0EC transparent; }
 
 .title {
   height: 58px;
@@ -101,7 +100,8 @@ body {
     margin-top: 30px; }
   .titleContent {
     width: 600px;
-    float: right; }
+    float: right;
+    position: relative; }
   .aboveContent {
     width: 295px;
     float: left;
@@ -119,6 +119,10 @@ body {
     position: absolute;
     left: -19px;
     top: 13px; }
+  .titleContent:hover {
+    background-color: #6FC0EC; }
+    .titleContent:hover .timeCone {
+      border-color: transparent #6FC0EC transparent transparent; }
   #all {
     position: relative;
     height: 1380px; }

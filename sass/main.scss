@@ -81,9 +81,7 @@ body {
    top: -10px;
  }
 
- .timeCone:hover {
-    border-color: transparent transparent $lightBlue transparent;
- }
+
 
 .titleContent {
   position: relative;
@@ -96,6 +94,9 @@ body {
 
 .titleContent:hover {
   background-color: $lightBlue;
+
+    .timeCone {
+        border-color: transparent transparent $lightBlue transparent;}
 }
 
 .title {
