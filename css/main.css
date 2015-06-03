@@ -98,6 +98,8 @@ body {
     width: 925px;
     margin: 0 auto;
     margin-top: 30px; }
+  .date {
+    float: right; }
   .titleContent {
     width: 600px;
     float: right;
