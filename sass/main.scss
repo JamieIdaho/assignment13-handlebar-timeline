@@ -12,6 +12,7 @@ body {
 .container {
   width: 305px;
   margin:0 auto;
+  height: 100%;
 }
 
 .aboveContent {
@@ -78,6 +79,10 @@ body {
    position: absolute;
    left: 35px;
    top: -10px;
+ }
+
+ .timeCone:hover {
+    border-color: transparent transparent $lightBlue transparent;
  }
 
 .titleContent {

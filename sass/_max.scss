@@ -8,10 +8,15 @@
 
   }
 
+  section {
+    display: block;
+  }
+
   .container {
     width: 925px;
     margin: 0 auto;
     margin-top: 30px;
+
   }
 
   .titleContent {
@@ -19,9 +24,6 @@
     float: right;
   }
 
-  .box {
-
-  }
 
   .aboveContent {
     width: 295px;
@@ -45,21 +47,30 @@
    border-color: transparent $darkBlue transparent transparent;
    position: absolute;
    left: -19px;
-   top: 35px;
+   top: 13px;
  }
 
-  // .all {
-  //   position: relative;
-  // }
+  #all {
+    position: relative;
+    height: 1380px;
 
-  // .all::before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   left: 133px;
-  //   height: 100%;
-  //   width: 9px;
-  //   background: $lightBlue;
-  // }
 
-}
+  }
+
+  #all::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 222px;
+    height: 100%;
+    width: 9px;
+    background: $lightBlue;
+
+
+  }
+
+  .icon {
+    position: absolute;
+  }
+
+};
